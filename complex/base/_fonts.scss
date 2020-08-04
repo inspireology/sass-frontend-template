@@ -1,7 +1,41 @@
-
 @font-face {
-  font-family:"Josefin Sans Bold";
-  src:url("JosefinSans-Bold.woff2") format("woff2"),url("JosefinSans-Bold.woff") format("woff"),url("JosefinSans-Bold.otf") format("opentype");
-  font-style:normal;font-weight:400;
+  font-family: "Josefin Sans Bold";
+  src:
+    url("JosefinSans-Bold.woff2") format("woff2"),
+    url("JosefinSans-Bold.woff") format("woff"),
+    url("JosefinSans-Bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
 }
 
+@font-face {
+  font-family: "FontName";
+  src:
+    url("FontName.woff2") format("woff2"),
+    url("FontName.woff") format("woff"),
+    url("FontName.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+// https://www.reliablepsd.com/ultimate-google-font-pairings/
+// Use Native font Stacks
+//    https://getbootstrap.com/docs/4.5/content/reboot/#native-font-stack
+//    https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/
+//    https://getbootstrap.com/docs/4.5/content/typography/
+// 1
+// 2
+//10
+//11
+//13
+//14
+//17
+//19
+//30
+//33
+//37
+//40
+//43
+//49
+
+// font-family: ... , georgia, "times new roman", times, serif;
