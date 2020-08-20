@@ -480,12 +480,60 @@ template {
 - Keep typographic rules here
 - Use created definitions in other files
 */
-h1, h2, h3, h4, h5, h6 {
-  font-family: "JosefinSans", sans-serif;
+body {
+  font-family: "JosefinSans", Helvetica, sans-serif;
+  font-weight: 100;
 }
 
-p, body {
-  font-family: "JosefinSans", Helvetica, sans-serif;
+p {
+  font-size: 130%;
+}
+
+h1 {
+  font-size: 1.9rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.8rem;
+}
+
+a {
+  color: #888888;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+label {
+  font-family: "Josefin Sans";
+  font-weight: normal;
+  font-style: normal;
+}
+
+legend {
+  font-family: inherit;
+  font-weight: bold;
+  font-style: normal;
+}
+
+blockquote {
+  font-family: "JosefinSans", sans-serif;
+  font-style: italic;
   font-weight: 100;
 }
 
