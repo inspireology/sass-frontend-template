@@ -1,0 +1,105 @@
+/*********** TYPOGRAPHY ***********/
+
+/*
+- Define how fonts map on to elements in HTML files
+- Define spacing, weights, styles etc
+- Keep typographic rules here
+- Use created definitions in other files
+*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family:
+    "JosefinSans",
+    sans-serif;
+}
+
+p, body {
+  font-family:
+    "JosefinSans",
+     Helvetica,
+     sans-serif;
+  font-weight: 100;
+}
+
+// https://www.reliablepsd.com/ultimate-google-font-pairings/
+// Use Native font Stacks
+//    https://getbootstrap.com/docs/4.5/content/reboot/#native-font-stack
+//    https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/
+//    https://getbootstrap.com/docs/4.5/content/typography/
+
+// font-family: ... , georgia, "times new roman", times, serif;
+
+// Modern
+// //  1
+// <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
+// font-family: 'Roboto Condensed', sans-serif;
+// font-size: 35px;
+//
+//
+// font-family: 'Cabin', sans-serif;
+// font-size: 16px;
+//
+// //  2
+// <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400" rel="stylesheet">
+// font-family: 'Raleway', sans-serif;
+// font-size: 44px;
+//
+// font-family: 'Open Sans', sans-serif;
+// font-size: 15px;
+//
+// // 19 Modern Formal
+// <link href="https://fonts.googleapis.com/css?family=Oswald|Quattrocento" rel="stylesheet">
+// font-family: 'Oswald', sans-serif;
+// font-size: 48px;
+//
+// font-family: 'Quattrocento', serif;
+// font-size: 16px;
+//
+// // 22 Very Good
+// <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Monda" rel="stylesheet">
+// font-family: 'Julius Sans One', sans-serif;
+// font-size: 45px;
+//
+// font-family: 'Monda', sans-serif;
+// font-size: 16px;
+//
+// 29
+//<link href="https://fonts.googleapis.com/css?family=Lato|Slabo+13px" rel="stylesheet">
+//font-size: 48px;
+//
+//font-family: 'Lato', sans-serif;
+//font-size: 16px;
+//
+// Formal
+// // 30
+// <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rufina:700" rel="stylesheet">
+// font-family: 'Rufina', serif;
+// font-size: 48px;
+//
+// font-family: 'PT Serif', serif;
+// font-size: 16px;
+//
+// // 37 Reallygood
+// <link href="https://fonts.googleapis.com/css?family=Cardo|Libre+Franklin" rel="stylesheet">
+// font-family: 'Cardo', serif;
+// font-size: 48px;
+//
+// font-family: 'Libre Franklin', sans-serif;
+// font-size: 14px;
+//
+// // 40
+// <link href="https://fonts.googleapis.com/css?family=Average+Sans|Goudy+Bookletter+1911" rel="stylesheet">
+// font-family: 'Goudy Bookletter 1911', serif;
+// font-size: 48px;
+//
+// font-family: 'Average Sans', sans-serif;
+// font-size: 16px;
+// // 43
+// <link href="https://fonts.googleapis.com/css?family=Lato|Prata" rel="stylesheet">
+//                                                                                 font-family: 'Prata', serif;
+// font-size: 48px;
+//
+// font-family: 'Lato', sans-serif;
+// font-size: 16px;
+//
+

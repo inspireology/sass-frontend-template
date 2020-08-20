@@ -1,94 +1,70 @@
+/*********** TYPEFACES ***********/
+
+/*
+- Define fonts/font families and their attributes
+- Define font names along with their weights and stretching only
+- Font file includes all happen here
+*/
+
 @font-face {
-  font-family: "Josefin Sans Bold";
+  font-family: "JosefinSans";
   src:
-    url("JosefinSans-Bold.woff2") format("woff2"),
-    url("JosefinSans-Bold.woff") format("woff"),
-    url("JosefinSans-Bold.otf") format("opentype");
+    url("../font/josefin-sans/regular.ttf") format("truetype");
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
+  font-stretch: normal;
 }
 
 @font-face {
-  font-family: "FontName";
+  font-family: "JosefinSans";
   src:
-    url("FontName.woff2") format("woff2"),
-    url("FontName.woff") format("woff"),
-    url("FontName.otf") format("opentype");
+          url("../font/josefin_sans/semi_bold.ttf") format("truetype");
   font-style: normal;
-  font-weight: 400;
+  font-weight: bold;
+  font-stretch: normal;
 }
 
-// https://www.reliablepsd.com/ultimate-google-font-pairings/
-// Use Native font Stacks
-//    https://getbootstrap.com/docs/4.5/content/reboot/#native-font-stack
-//    https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/
-//    https://getbootstrap.com/docs/4.5/content/typography/
+@font-face {
+  font-family: "JosefinSans";
+  src:
+     url("../font/josefin_sans/bold_italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: bold;
+  font-stretch: normal;
+}
 
-// font-family: ... , georgia, "times new roman", times, serif;
+@font-face {
+  font-family: "JosefinSans";
+  src:
+          url("../font/josefin_sans/light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100;
+  font-stretch: normal;
+}
 
-// Modern
-// //  1
-// <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
-// font-family: 'Roboto Condensed', sans-serif;
-// font-size: 35px;
-//
-// font-family: 'Cabin', sans-serif;
-// font-size: 16px;
-//
-// //  2
-// <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400" rel="stylesheet">
-// font-family: 'Raleway', sans-serif;
-// font-size: 44px;
-//
-// font-family: 'Open Sans', sans-serif;
-// font-size: 15px;
-//
-// // 19 Modern Formal
-// <link href="https://fonts.googleapis.com/css?family=Oswald|Quattrocento" rel="stylesheet">
-// font-family: 'Oswald', sans-serif;
-// font-size: 48px;
-//
-// font-family: 'Quattrocento', serif;
-// font-size: 16px;
-//
-// // 22 Very Good
-// <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Monda" rel="stylesheet">
-// font-family: 'Julius Sans One', sans-serif;
-// font-size: 45px;
-//
-// font-family: 'Monda', sans-serif;
-// font-size: 16px;
-//
-//
-// Formal
-// // 30
-// <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rufina:700" rel="stylesheet">
-// font-family: 'Rufina', serif;
-// font-size: 48px;
-//
-// font-family: 'PT Serif', serif;
-// font-size: 16px;
-//
-// // 37 Reallygood
-// <link href="https://fonts.googleapis.com/css?family=Cardo|Libre+Franklin" rel="stylesheet">
-// font-family: 'Cardo', serif;
-// font-size: 48px;
-//
-// font-family: 'Libre Franklin', sans-serif;
-// font-size: 14px;
-//
-// // 40
-// <link href="https://fonts.googleapis.com/css?family=Average+Sans|Goudy+Bookletter+1911" rel="stylesheet">
-// font-family: 'Goudy Bookletter 1911', serif;
-// font-size: 48px;
-//
-// font-family: 'Average Sans', sans-serif;
-// font-size: 16px;
-// // 43
-// <link href="https://fonts.googleapis.com/css?family=Lato|Prata" rel="stylesheet">
-//                                                                                 font-family: 'Prata', serif;
-// font-size: 48px;
-//
-// font-family: 'Lato', sans-serif;
-// font-size: 16px;
-//
+
+@font-face {
+  font-family: "JosefinSans";
+  src:
+          url("../font/josefin_sans/light_italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 100;
+  font-stretch: normal;
+}
+
+// Multiple font-faces
+// TODO https://stackoverflow.com/questions/28279989/multiple-font-weights-one-font-face-query
+
+// @font-face {
+//  font-family: 'MyWebFont';
+//  src: url('webfont.eot'); /* IE9 Compat Modes */
+//  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//  url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+//  url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+//  url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+//  url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+//  font-style: italic;
+//  font-weight: bold;
+//  font-stretch: normal;
+//  font-variant: normal|small-caps|initial|inherit;
+// }
